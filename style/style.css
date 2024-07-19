@@ -131,9 +131,9 @@ opacity: 0.5;
 /* ABOUT US SECTION*/
 
 .about-us{
-    margin-top: 15%;
+    margin-top: 8%;
     display: inline-block;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .about-us img {
@@ -151,6 +151,7 @@ box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: vidaloka, serif;
     text-transform: uppercase;
     color: #66351A;
+    font-weight: 500;
     font-size: 50px;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -185,6 +186,7 @@ box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-transform: uppercase;
     color: #66351A;
     font-size: 50px;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 2%;
 
@@ -193,14 +195,32 @@ box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .services-section p{
   
     font-family: lato, sans-serif;
-    color: #45200B;
+    color: #A17860;
     margin-bottom: 3%;
+    
   
 }
 
 .services img{
    
     object-fit: cover;
+    margin-bottom: 1rem;
    
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.services span{
+    font-family: lato, sans-serif;
+    color: #A17860;
+    text-transform: uppercase;
 }
 
