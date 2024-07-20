@@ -174,6 +174,36 @@ box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 /*SERVICES SECTION */
 
+.services-section {
+    margin-bottom: 12%;
+}
+
+.services-section .ver-mas-btn {
+
+    border-color: #A17860;
+    background: transparent;
+    color: #5C2D13;
+    width: 14%;
+    height: 50px;
+    font-family: lato,serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    left: 44%;
+    bottom: -1100px;
+    
+    
+}
+
+.services-section .ver-mas-btn:hover{
+    opacity: 0.5;
+}
+
+.services-section .fa-arrow-right{
+    margin-left: 5px;
+}
 
 .services-section h2,p{
 
@@ -202,20 +232,23 @@ box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .services img{
-   
+   width: 350px;
+   height: 220px;
     object-fit: cover;
     margin-bottom: 1rem;
    
 }
 
 .services{
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 0.2rem;
+    grid-template-columns: repeat(3,0.1fr);
+    grid-gap: 1rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 8%;
+   
+    
 }
 
 .services span{
